@@ -4,11 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Plantes de Nantes</title>
+	<!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
-
-	<h1>Plantes de Nantes</h1>
-	<h2>Collection végétale de la Ville de Nantes</h2>
+<body class = "container-fluid text-center">
+	<header>
+		<h1>Plantes de Nantes</h1>
+		<h2>Collection végétale de la Ville de Nantes</h2>
+	</header>
+	
 	<p class="lead">
 		Choisissez un genre puis une espèce et voyez où la trouver à Nantes.
 	</p>
@@ -21,6 +26,9 @@
 		<div id="specie">
 			<span id="espece"></span>
 		</div>
+	</div>
+	<div class = "container d-inline-flex flex-wrap justify-content-center align-items-center" id="resultat">
+		<!-- Les images vont venir ici -->
 	</div>
 	<p class="small text-muted text-center">Collection végétale de la Ville de Nantes - Ville de Nantes, 10 mai 2023, sous
 		licence ODbL.</p>
